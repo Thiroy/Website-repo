@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div>
+      <a href="Homepage.html">Startpagina</a>   <a href="Hobby.html">Hobby</a>   <a href="Ervaring.html">Ervaring</a>   <a href="CV.html">CV</a>   <a href="Contact.html">Contact</a>
+    </div>
+    <h1>Contact</h1>
+   <form action="https://casper-tm.be/sendmail.php" method="post">
+    <div>
+        <label for="naam">naam: 
+             <input type="text" name="Naam" id="Naam">
+        </label>
+    </div>
+    <div>
+        <label for="Emailadres">Email: 
+            <input type="email" name="Emailadres" id="Emailadres">
+        </label>
+    </div>
+    <div>
+        <label for="reactie">Vraag:
+            <textarea name="reactie" id="reactie"></textarea>
+        </label>
+    </div>
+    </div>
+      <input type="hidden" name="studentemail" value="casper@deschamphelaere.be">
+    <div>
+    <input type="submit" value="Versturen" method="post">
+    
+   </form> 
+  </body>
+</html>
