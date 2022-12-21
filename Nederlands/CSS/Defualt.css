@@ -1,0 +1,133 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+body{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg-Gradient-indigo-purple{
+    background-image: linear-gradient(indigo, rgb(141, 22, 141));
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+.big-picture {
+    border-radius: 50px;
+ }
+ .small-picture {
+    width: 50px;
+ }
+ .auto-picture {
+    width: auto;
+    border-radius: auto;
+ }
+nav .btn-primary {
+    background-color: rgb(83, 26, 105, 0);
+    border-color: rgb(83, 26, 105, 0);
+}
+nav .btn-primary:hover {
+    background-color: rgb(148, 75, 215);
+    border-color: rgb(148, 75, 215);
+    color: black;
+}
+.btn-primary {
+    background-color: rgb(83, 26, 105);
+    border-color: rgb(83, 26, 105);
+}
+.btn-primary:hover {
+    background-color: rgb(148, 75, 215);
+    border-color: rgb(148, 75, 215);
+    color: black;
+}
+.purple {
+    
+    background-color: rgb(83, 26, 105);
+    color: black;
+}
+.backdrop-purple{
+    background-color: #580e70;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+
+}
+.backdrop-gray {
+    background-color: #cfcfcf;
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+}
+.backdrop-white {
+    background-color: #f2f1e6;
+    background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png");
+}
+.bg-orange {
+    background-color: rgb(204, 153, 0);
+    color: black;
+}
+.bg-orange-opacity-25 {
+    background-color: rgba(204, 153, 0,0.25);
+    color: black;
+}
+.bg-orange-opacity-50 {
+    background-color: rgba(204, 153, 0, 0.5);
+    color: black;
+}
+.bg-orange-opacity-75 {
+    background-color: rgba(204, 153, 0,0.75);
+    color: black;
+}
+.bg-grayish {
+    background-color: rgb(108, 108, 108);
+    color: black;
+}
+.bg-grayish-opacity-25 {
+    background-color: rgba(108, 108, 108,0.25);
+    color: black;
+}
+.bg-grayish-opacity-50 {
+    background-color: rgba(108, 108, 108, 0.5);
+    color: black;
+}
+.bg-grayish-opacity-75 {
+    background-color: rgba(108, 108, 108,0.75);
+    color: black;
+}
+.text-purple {
+    --bs-text-opacity: 1;
+    color: rgb(255, 195, 122);
+}
+.border-purple {
+    --bs-border-opacity: 1;
+    border-color: rgba(rgb(83, 26, 105), var(--bs-border-opacity)) !important;
+  }
+.img-responsive {
+    width: 100%;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.container-pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+#div.image img {
+    width:  400px;
+    height: 400px;
+
+  }
+  .image {
+    flex-basis: 40%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+body h2{
+    font-size: larger;
+}
+
